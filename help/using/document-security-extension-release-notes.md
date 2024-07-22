@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: installing
 discoiquuid: c9342c28-8289-4831-a613-4bc03431f557
 exl-id: 582f10bb-60d2-46ed-b81d-5818a040edc6
-source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
+source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->In questo documento i termini Adobe Experience Manager Document Security for Microsoft Office, Adobe Experience Manager Document Security Extension for Microsoft Office e Document Security Extension for Microsoft Office vengono utilizzati in modo intercambiabile.
+>Il documento utilizza i seguenti termini in modo intercambiabile:
+>
+>* Adobe Experience Manager Document Security for Microsoft Office
+>* Adobe Experience Manager Document Security Extension for Microsoft Office
+>* Document Security Extension for Microsoft Office
 
 ## Installazione e configurazione di AEM Document Security Extension for Microsoft Office {#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
@@ -31,7 +35,7 @@ Prima di installare AEM Document Security Extension for Microsoft Office, leggi 
 
 ## Problemi risolti {#fixed-issues}
 
-* Le stringhe vengono visualizzate in verticale e al contenuto vengono aggiunte interruzioni di riga errate. (Rif. CQ-4201054)
+* Le stringhe vengono visualizzate in verticale e al contenuto vengono aggiunte interruzioni di riga errate. (CQ-4201054)
 
 ## Problemi noti {#known-issues}
 
@@ -72,7 +76,7 @@ In Microsoft Office, durante una sessione protetta non sono disponibili le segue
 
 ### Apertura di un documento protetto da SharePoint Server {#opening-a-protected-document-from-sharepoint-server}
 
-Apertura del documento protetto: se provi ad aprire un documento protetto in Document Security Extension for Microsoft Office da SharePoint Server senza prima aver aperto il programma Microsoft Office associato al tipo di file, ad esempio Microsoft Word, Microsoft Excel o Microsoft PowerPoint, è possibile che il documento non si apra. Viene visualizzato un messaggio di errore in cui si richiede l’installazione del plug-in applicabile. È quindi consigliabile aprire il programma Microsoft Office associato prima di aprire un documento protetto in Document Security Extension for Microsoft Office da SharePoint Server.
+Per aprire un documento protetto in Document Security Extension for Microsoft Office da SharePoint Server, apri innanzitutto l’applicazione di Microsoft Office associata (Word, Excel o PowerPoint), altrimenti il documento potrebbe non essere aperto. Viene visualizzato un messaggio di errore in cui si richiede l’installazione del plug-in applicabile. È quindi consigliabile aprire il programma Microsoft Office associato prima di aprire un documento protetto in Document Security Extension for Microsoft Office da SharePoint Server.
 
 (Facoltativo) Si consiglia di svuotare la cartella della cache prima di aprire un documento protetto in Document Security Extension for Microsoft Office da SharePoint Server.
 
@@ -80,7 +84,7 @@ Quando si apre un documento protetto da SharePoint Server, vengono disattivate t
 
 ### Applicare un criterio con filigrana dinamica a file Microsoft Excel 2013, Microsoft Excel 2016 e Microsoft Excel 2019 senza stampante installata {#apply-a-policy-with-a-dynamic-watermark-to-microsoft-excel-microsoft-excel-and-microsoft-excel-file-with-no-printer-installed}
 
-Se applichi una policy con filigrana dinamica a un file Microsoft Excel 2013, Microsoft Excel 2016 o Microsoft Excel 2019 su un computer in cui non è installata alcuna stampante e quindi salvi il file, viene visualizzato il seguente errore: “Errore interno durante l’applicazione della filigrana dinamica.” Questo errore viene visualizzato anche se riapri il file protetto. La filigrana non viene applicata e non è visibile da Visualizza > Layout pagina.
+L’applicazione di una policy con filigrana dinamica a file Excel 2013, 2016 o 2019 su un computer senza stampanti installate genera l’errore: &quot;Errore interno durante l’applicazione della filigrana dinamica&quot;. Questo errore viene visualizzato anche se riapri il file protetto. La filigrana non viene applicata e non è visibile da Visualizza > Layout pagina.
 
 ### Disattivare Protezione esecuzione programmi di Windows per le applicazioni Office supportate {#disable-windows-data-execution-prevention-for-supported-office-applications}
 
@@ -92,7 +96,7 @@ Se proteggi un file Microsoft Office condiviso con Document Security Extension, 
 
 ### Avvio delle applicazioni Office in un computer contenente Document Security Extension for Microsoft Office e McAfee VirusScan {#starting-office-applications-on-a-machine-containing-document-security-extension-for-microsoft-office-and-mcafee-virusscan}
 
-Per garantire un avvio ottimale delle applicazioni Office nei computer in cui sono installati Document Security e McAfee VirusScan con scansione all’accesso abilitata, disabilita l’opzione di protezione da overflow del buffer nella console di McAfee VirusScan.
+Per garantire un avvio senza problemi delle applicazioni Office in un computer con Document Security e McAfee VirusScan (scansione all’accesso abilitata), disabilita l’opzione di protezione da overflow del buffer nella console di McAfee VirusScan.
 
 ### Installazione di Document Security Extension for Microsoft Office in un computer con una lingua di Microsoft Office non supportata {#installing-document-security-extension-for-microsoft-office-on-a-machine-with-an-unsupported-microsoft-office-language}
 
@@ -104,7 +108,7 @@ Il pulsante di sincronizzazione offline è disponibile anche se l’utente non d
 
 ### Versioni di prova di Microsoft Office non supportate {#no-support-for-trial-versions-of-microsoft-office}
 
-L’estensione Document Security for Microsoft Office non supporta le versioni di prova di Microsoft Office. Prima di installare l’estensione, accertati di aver installato una copia con licenza di Microsoft Office e di averla attivata.
+Document Security Extension for Microsoft Office non supporta le versioni di prova di Microsoft Office. Prima di installare l’estensione, accertati di aver installato una copia con licenza di Microsoft Office e di averla attivata.
 
 ### Impossibile aprire un file Microsoft Office protetto {#unable-to-open-a-protected-microsoft-office-files}
 
@@ -112,14 +116,14 @@ Se è abilitata la visualizzazione protetta di Microsoft Office, Right Managemen
 
 ### Le celle di un documento Microsoft Excel contenenti un’immagine o un colore di sfondo vengono visualizzate sopra la filigrana {#cells-of-microsoft-excel-document-containing-an-image-or-background-color-appear-on-top-of-watermark}
 
-Se una cella di un documento Microsoft Excel contiene un’immagine o un colore di sfondo e al documento viene applicato un criterio di filigrana dinamica, l’immagine o il colore di sfondo contenuto nella cella viene visualizzato sopra la filigrana e la copre.
+Se una cella di un documento Excel presenta un&#39;immagine o un colore di sfondo e viene applicata una filigrana dinamica, l&#39;immagine o il colore copre la filigrana. Questo approccio significa che la filigrana è coperta dall&#39;immagine o dal colore di sfondo nella cella.
 
 ### Problema di usabilità con più certificati {#usability-issue-with-multiple-certificates}
 
-Se nel computer client sono presenti più certificati e l’utente annulla la finestra di dialogo di selezione del certificato, la finestra di dialogo viene visualizzata nuovamente e l’utente deve annullarla una seconda volta.
+Se nel computer client sono presenti più certificati e l’utente annulla la finestra di dialogo di selezione del certificato, la finestra di dialogo viene visualizzata nuovamente. L’utente deve annullare la finestra di dialogo due volte.
 
 ### Microsoft PowerPoint consente la modifica di documenti protetti {#microsoft-powerpoint-allows-editing-protected-documents}
 
-Se si tenta di modificare un documento protetto, in Microsoft PowerPoint viene visualizzato il messaggio di tipo: “L’utente non dispone delle autorizzazioni per modificare il documento. Le modifiche non verranno salvate.” Dopo aver chiuso il messaggio, l’utente può continuare ad aggiungere testo o modificare il documento. Le modifiche apportate ai documenti protetti, tuttavia, non vengono salvate.
+Se si tenta di modificare un documento protetto, in Microsoft PowerPoint viene visualizzato il messaggio di tipo: “L’utente non dispone delle autorizzazioni per modificare il documento. Non puoi salvare le modifiche.&quot; Dopo aver chiuso il messaggio, l’utente può continuare ad aggiungere testo o modificare il documento. Le modifiche apportate ai documenti protetti, tuttavia, non vengono salvate.
 
 Questo comportamento corrisponde al comportamento previsto in PowerPoint 2013, PowerPoint 2016 e PowerPoint 2019.
