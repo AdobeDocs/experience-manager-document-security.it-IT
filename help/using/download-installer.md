@@ -1,20 +1,20 @@
 ---
 title: Scarica Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft® Office
-description: Utilizzare Document Security Extension for Microsoft&reg; software Office per proteggere i file critici da accessi non autorizzati
+description: Utilizza il software Document Security Extension for Microsoft® Office per proteggere i file critici dall’accesso non autorizzato
 uuid: b4c7d1d1-7eae-4fd3-8282-132c80a976e8
 contentOwner: khsingh
 discoiquuid: b32c7bb8-0060-4c2a-90fc-446b6ba39159
 exl-id: 25d2f439-e6c9-4d0a-bbd1-91d0f00dc683
 source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # Scarica Adobe Experience Manager Document Security/LiveCycle Rights Management Extension for Microsoft® Office {#download-adobe-experience-manager-document-security-livecycle-rights-management-extension-for-microsoft-office}
 
-Document Security Extension for Microsoft® Office consente di mantenere la riservatezza delle informazioni riservate. È possibile proteggere sempre i file critici da accessi non autorizzati. Questa protezione si applica dalla creazione dei documenti fino alla distribuzione. Include inoltre l&#39;archiviazione e la distruzione, indipendentemente da come vengono distribuiti i file o da dove vengono archiviati.
+L’utilizzo del software Document Security Extension for Microsoft® Office consente di mantenere la riservatezza delle informazioni riservate. È possibile proteggere sempre i file critici da accessi non autorizzati. Questa protezione è applicata dalla creazione dei documenti fino alla distribuzione. Include inoltre l’archiviazione e la distruzione, indipendentemente da come vengono distribuiti i file o da dove vengono archiviati.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Document Security Extension for Microsoft® Office consente di mantenere la rise
 
 * Microsoft® Windows 7 o Windows 10 versioni a 32 bit o 64 bit
 * Nota: l’estensione Document Security Extension for Microsoft® Office è stata progettata per essere utilizzata anche su dispositivi Microsoft® Surface.
-* Versioni a 32 bit o 64 bit delle applicazioni desktop Microsoft® Office 2013, 2016, 2019 o Microsoft® Office installate nell’ambito di Office 365
+* Versioni a 32 bit o a 64 bit di Microsoft® Office 2013, 2016 o 2019 o le applicazioni desktop Microsoft® Office installate nell’ambito di Office 365
 * Processore da 1,3 GHz o superiore
 * 2 GB di RAM
 * 100 MB di spazio disponibile su disco rigido
