@@ -82,7 +82,7 @@ Le risorse elencate in questa tabella consentono di acquisire maggiore familiari
   </tr>
   <tr>
    <td><p>Aggiornamenti patch, note tecniche e informazioni aggiuntive su questa versione del prodotto</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home&amp;lang=it#support">Supporto tecnico di Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/it?support-solution=General&amp;support-tab=home&amp;lang=it#support">Supporto tecnico di Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>
