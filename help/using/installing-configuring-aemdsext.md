@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 69abd3e49fcf79b8bf2a7f344abeeae250b1479f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ AEM Document Security Extension for Microsoft Office non supporta plug-in di ter
 
 ### Client Document Security Extension {#document-security-extension-client}
 
-Verifica di disporre delle seguenti configurazioni minime in cui installare Document Security Extension:
+Verifica di disporre delle seguenti configurazioni minime su cui installare Document Security Extension:
 
 * Versioni a 32 bit o 64 bit di Microsoft Office 2019 Professional Plus su Microsoft Windows 11 in inglese, francese, tedesco, giapponese, italiano, spagnolo, portoghese brasiliano, coreano, cinese semplificato o cinese tradizionale.
 
@@ -60,7 +60,7 @@ Verifica di disporre delle seguenti configurazioni minime in cui installare Docu
 
   **Nota:** *l’estensione Document Security for Microsoft Office è stata progettata per essere utilizzata anche sui dispositivi Microsoft Surface.*
 
-* Versioni a 32 bit o 64 bit delle applicazioni desktop Office 2016, 2019 e Microsoft Office installate nell’ambito di Office 365 in inglese, francese, tedesco, giapponese, italiano, spagnolo, portoghese brasiliano, coreano, cinese semplificato o cinese tradizionale.
+* Versioni a 32 bit o a 64 bit di Office 2016 e di applicazioni desktop Microsoft Office installate nell’ambito di Office 365 nelle lingue inglese, francese, tedesco, giapponese, italiano, spagnolo, portoghese brasiliano, coreano, cinese semplificato o cinese tradizionale.
 
   **Nota**: *AEM Document Security Extension for Microsoft Office non supporta plug-in di terze parti per applicazioni Microsoft Office. Questa estensione può entrare in conflitto con plug-in di terze parti ed è quindi necessario disinstallare eventuali plug-in non Adobe per applicazioni Microsoft Office prima di installare Document Security Extension for Microsoft Office. Adobe non fornisce il supporto per applicazioni Document Security Extensions for Microsoft Office con plug-in di terze parti installati.*
 
