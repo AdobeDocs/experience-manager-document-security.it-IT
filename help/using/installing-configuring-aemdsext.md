@@ -1,19 +1,19 @@
 ---
-title: Installazione e configurazione di AEM Document Security Extension for Microsoft Office
+title: Installare e configurare AEM Document Security Extension for Microsoft Office
 description: Questo documento illustra come installare e configurare Adobe Experience Manager Document Security Extension 6.2 for Microsoft Office.
 uuid: 9d7eb6bb-4780-4d82-8657-7c6c6d523af0
 content-type: reference
 topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
-source-git-commit: 69abd3e49fcf79b8bf2a7f344abeeae250b1479f
-workflow-type: ht
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+workflow-type: tm+mt
 source-wordcount: '2845'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Installazione e configurazione di AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
+# Installare e configurare AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 Questo documento illustra come installare e configurare Adobe Experience Manager Document Security Extension for Microsoft Office.
 
@@ -56,7 +56,7 @@ Verifica di disporre delle seguenti configurazioni minime su cui installare Docu
 
 * Versioni a 32 bit o 64 bit di Microsoft Office 2019 Professional Plus su Microsoft Windows 11 in inglese, francese, tedesco, giapponese, italiano, spagnolo, portoghese brasiliano, coreano, cinese semplificato o cinese tradizionale.
 
-* Versioni a 32 bit o 64 bit di Microsoft Windows 10 in inglese, francese, tedesco, giapponese, italiano, spagnolo, portoghese brasiliano, coreano, cinese semplificato o cinese tradizionale.
+* Versioni a 32 bit o 64 bit di Microsoft Windows 10 in inglese, francese, tedesco, giapponese, italiano, spagnolo, brasiliano, portoghese, coreano, cinese semplificato o cinese tradizionale.
 
   **Nota:** *l’estensione Document Security for Microsoft Office è stata progettata per essere utilizzata anche sui dispositivi Microsoft Surface.*
 
@@ -72,7 +72,7 @@ Verifica di disporre delle seguenti configurazioni minime su cui installare Docu
 
 Prima di utilizzare Document Security Extension, accertati di essere in grado di stabilire una connessione con Adobe LiveCycle Rights Management ES2 o versione successiva o con il componente aggiuntivo Document Security per AEM Forms 6.0 o versione successiva.
 
-## Installazione di Document Security Extension for Microsoft Office {#installing-document-security-extension-for-microsoft-office}
+## Installare Document Security Extension for Microsoft Office {#installing-document-security-extension-for-microsoft-office}
 
 È possibile scaricare il file di installazione dalla [pagina di download](download-installer.md). Non è possibile personalizzare direttamente il file eseguibile del programma di installazione, ma è possibile installarlo in modo interattivo o in modalità silenziosa. Per installare il software, accedi a Windows come amministratore.
 
@@ -98,7 +98,7 @@ Il file di installazione è disponibile anche come file MSI, che può essere uti
 
    `msiexec /I DocumentSecurityExtensionforMicrosoftOffice.msi /qn`
 
-## Preconfigurazione del programma di installazione per la connessione a Document Security {#preconfiguring-the-installer-to-connect-to-document-security}
+## Preconfigurare il programma di installazione per la connessione a Document Security {#preconfiguring-the-installer-to-connect-to-document-security}
 
 È possibile preconfigurare il file di installazione di Document Security Extension for Microsoft Office in modo che punti a un server LiveCycle o AEM. In questo modo gli utenti che installano Document Security Extension for Microsoft Office potranno utilizzare le funzioni senza dover configurare una connessione. Gli utenti possono quindi aprire documenti protetti anche senza una specifica configurazione, ma non possono proteggere nuovi documenti finché non configurano il client per l’utilizzo di un server specifico.
 
@@ -173,7 +173,7 @@ For more information about how to edit Microsoft Windows&reg; Installer files us
    >
    >In genere, si utilizza lo stesso nome del file MSI originale (ad esempio, `DocumentSecurityExtensionforMicrosoftOffice.msi`).
 
-## Configurazione dell’applicazione automatica di una policy predefinita {#configuring-automatic-application-of-a-default-policy}
+## Configurare l’applicazione automatica di una policy predefinita {#configuring-automatic-application-of-a-default-policy}
 
 Nell’ambito del processo di configurazione, è possibile configurare l’applicazione automatica di una policy predefinita in modo che Document Security Extension for Microsoft Office protegga ogni documento salvato.
 
@@ -209,7 +209,7 @@ Prima di iniziare, preconfigura il file di installazione per puntare al server L
   </tr>
   <tr>
    <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
-   <td><p>Attiva o disattiva la funzione di applicazione automatica della policy.</p> <p><code>1</code>: Attiva</p> <p>0: Disattiva</p> </td>
+   <td><p>Abilita o disabilita la funzione di applicazione automatica della policy.</p> <p><code>1</code>: Abilita</p> <p>0: Disattiva</p> </td>
    <td><p>0</p> </td>
   </tr>
   <tr>
@@ -245,16 +245,16 @@ Prima di iniziare, preconfigura il file di installazione per puntare al server L
    >
    >In genere, si utilizza lo stesso nome del file MSI originale (ad esempio, `DocumentSecurityExtensionforMicrosoftOffice.msi`).
 
-## Abilitazione della protezione automatica di nuovi documenti {#enabling-automatic-protection-of-new-documents}
+## Abilita protezione automatica dei nuovi documenti {#enabling-automatic-protection-of-new-documents}
 
-L’amministratore può abilitare la funzione di protezione automatica dei documenti salvati da un utente. In questo caso, l’amministratore configura la funzione di applicazione automatica della policy nel programma di installazione di Document Security Extension for Microsoft Office.
+L’amministratore può abilitare la funzione di protezione automatica dei documenti salvati da un utente. L’amministratore configura la funzione di applicazione automatica della policy nel programma di installazione di Document Security Extension for Microsoft Office.
 
-Se è abilitata l’applicazione automatica della policy, tutti i documenti salvati dall’utente vengono protetti con la policy predefinita. Questa azione viene eseguita nelle situazioni seguenti:
+Se la policy applicata automaticamente è abilitata, tutti i documenti salvati dall’utente vengono protetti con la policy predefinita. Questa azione viene eseguita nelle situazioni seguenti:
 
 * Quando un utente crea un nuovo documento, lo modifica e lo salva.
 * Quando un utente apre un documento non protetto, lo modifica e lo salva.
 
-Per informazioni sulla configurazione dell’applicazione automatica della policy, consulta [Configurazione dell’applicazione automatica della policy predefinita](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
+Per informazioni sulla configurazione del criterio applicato automaticamente, vedere [Configurare un&#39;applicazione automatica del criterio predefinito](installing-configuring-aemdsext.md#p-configuring-automatic-application-of-a-default-policy-p).
 
 ## Abilitare l’interfaccia utente senza barra multifunzione {#enable-ribbon-less-user-interface}
 
@@ -351,9 +351,9 @@ Il file CommonResources.dll contiene informazioni sui modelli di risorse. Includ
 
 1. Aggiungi le risorse:
 
-   1. Con un progetto selezionato in Esplora soluzioni, scegli Proprietà dal menu Progetto.
+   1. Con un progetto selezionato in Esplora soluzioni, fai clic su Proprietà dal menu Progetto.
    1. Seleziona la scheda Risorse.
-   1. Nella barra degli strumenti di Progettazione risorse, cerca Aggiungi risorsa e fai clic sulla freccia. Per il tipo di risorsa, seleziona TEMPLATE_FILE e fai clic su Importa.
+   1. Nella barra degli strumenti di Resource designer, cerca Aggiungi risorsa e fai clic sulla freccia. Per il tipo di risorsa, seleziona TEMPLATE_FILE e fai clic su Importa.
    1. Nella finestra di dialogo **`Add existing file to resources`**, individua il file Resource.xlsx e fai clic su Apri. Il file viene aggiunto alla directory TEMPLATE_FILE.
 
    >[!NOTE]

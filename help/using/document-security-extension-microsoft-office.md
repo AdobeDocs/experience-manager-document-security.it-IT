@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: using
 discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
-source-git-commit: 3b6a686966fb8d006bed8cc4a4bf5eebe0dfb030
-workflow-type: ht
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Document Security Extension for Microsoft® Office migliora LiveCycle Rights Man
 
 L’estensione Document Security garantisce che solo le persone autorizzate possano utilizzare i file protetti dai diritti di proprietà intellettuale dell’autore. Document Security consente infatti di proteggere i file tramite policy (o criteri) di riservatezza. Una *policy* è una raccolta di informazioni che comprendono impostazioni di riservatezza e un elenco di utenti autorizzati. Le impostazioni specificate in una policy determinano il modo in cui un destinatario può utilizzare i file a cui è associata la policy. Consentono di specificare, ad esempio, se i destinatari possono stampare o copiare il testo o salvare le modifiche.
 
-Sia gli amministratori che gli utenti di Document Security possono creare policy. Gli amministratori creano policy organizzative disponibili per tutti gli utenti autorizzati. Gli amministratori e i coordinatori di set di policy possono anche creare gruppi o *set di policy* disponibili per un sottoinsieme di utenti. Gli utenti possono creare policy proprie, che possono essere utilizzate solo dall’utente che le ha create. Gli amministratori, i coordinatori di set di policy e gli utenti possono creare le policy utilizzando le pagine web di Document Security.
+Sia gli amministratori che gli utenti di Document Security possono creare policy. Gli amministratori creano policy organizzative disponibili per tutti gli utenti autorizzati. Amministratori e coordinatori di set di criteri possono anche creare gruppi o *set di criteri* disponibili per un sottoinsieme di utenti. Gli utenti possono creare policy proprie, che possono essere utilizzate solo dall’utente che le ha create. Amministratori, coordinatori di set di criteri e utenti possono creare i criteri utilizzando le pagine web di Document Security.
 
 Sebbene siano memorizzate in Document Security, le policy vengono applicate ai file tramite Word, Excel o PowerPoint. Quando si applica una policy a un file, le informazioni contenute nel file vengono protette dalle impostazioni di riservatezza specificate nella policy. Quando si distribuisce il file protetto tramite policy, solo i destinatari autorizzati possono accedere al contenuto.
 
@@ -50,7 +50,7 @@ Quando un utente tenta di aprire un file protetto tramite policy, Document Secur
 * Per il periodo di validità specificato nella policy.
 * Fino a quando un amministratore o la persona che ha applicato la policy non revoca l’accesso al file o modifica la policy.
 
-  Se la persona che ha applicato il criterio lo modifica o revoca l’accesso al file, le autorizzazioni di cui dispone l’utente per il file vengono modificate o rimosse, anche se il file è già in suo possesso. Se il file è stato revocato, è possibile fornire all’utente un URL da cui scaricare una copia aggiornata.
+  Se la persona che ha applicato il criterio lo modifica o revoca l’accesso al file, le autorizzazioni di cui dispone l’utente per il file vengono modificate o rimosse, anche se il file è già in suo possesso. Se il file stesso viene revocato, è possibile fornire all’utente un URL per ottenere una copia aggiornata.
 
   Se la policy consente l’accesso offline, gli utenti possono aprire i file protetti tramite policy senza una connessione Internet o di rete durante il periodo di lease offline specificato. Al termine di questo intervallo di tempo, l’utente deve tornare online ed effettuare la sincronizzazione con Document Security, che avvia un nuovo periodo di lease.
 
@@ -82,7 +82,7 @@ Le risorse elencate in questa tabella consentono di acquisire maggiore familiari
   </tr>
   <tr>
    <td><p>Aggiornamenti patch, note tecniche e informazioni aggiuntive su questa versione del prodotto</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/it?support-solution=General&amp;support-tab=home&amp;lang=it#support">Supporto tecnico di Experience Cloud</a></p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home&amp;lang=it#support">Supporto tecnico di Experience Cloud</a></p> </td>
   </tr>
  </tbody>
 </table>

@@ -6,10 +6,10 @@ content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: 6cf19ed9439e5be5a4c2e2fa2458879f37c25b96
-workflow-type: ht
-source-wordcount: '6136'
-ht-degree: 100%
+source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+workflow-type: tm+mt
+source-wordcount: '6139'
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ Per abilitare l’autenticazione estesa con l’URL di destinazione Adobe predef
 1. Apri l’interfaccia utente di amministrazione di AEM Forms.
 1. Passa a Servizi > Document Security > Configurazione > Configurazione server.
 1. Abilita l’opzione Consenti autenticazione estesa.
-1. Specifica l’URL di destinazione per l’autenticazione estesa predefinito. L’URL predefinito è http://localhost:8080/edc/extendedauthentication/welcome.jsp.
+1. Specifica l’URL di destinazione per l’autenticazione estesa predefinito. URL predefinito: http://localhost:8080/edc/extendedauthentication/welcome.jsp.
 
    Fai clic su **[!UICONTROL Salva]**.
 
@@ -327,7 +327,7 @@ Per ulteriori informazioni sulla creazione e la gestione delle policy, consulta 
 
 ### Applicare le policy {#applying-policies}
 
-Puoi applicare a un file qualsiasi policy disponibile, tra cui quelle creati personalmente e quelle incluse nei set a cui hai accesso. Prima di applicare una policy, è tuttavia necessario salvare il file.
+Puoi applicare a un file qualsiasi criterio disponibile, tra cui quelli da te creati e quelli inclusi nei set di criteri a cui hai accesso. Prima di applicare una policy, è tuttavia necessario salvare il file.
 
 Dopo aver applicato una policy, questa viene aggiunta all’elenco Usate di recente sul menu di AEM Document Security per facilitare l’applicazione delle policy più utilizzate. Nell’elenco Usate di recente vengono visualizzate solo le policy per il server a cui sei connesso o, se non hai effettuato l’accesso a un’altra istanza di Document Security, per il server predefinito.
 
@@ -373,7 +373,7 @@ Se una funzione non è disponibile, il nome di comando nel menu e il pulsante co
 
 Puoi aprire un file protetto tramite policy con gli stessi metodi utilizzati per aprire qualsiasi altro file. Se non hai già effettuato l’accesso a Document Security, ti viene richiesto di farlo. In altre parole, se non sei connesso a Internet e puoi aprire il file offline. Se annulli la procedura di accesso, l’accesso viene negato.
 
-Se non disponi dell’autorizzazione per aprire il file, verrai avvisato che l’accesso è stato negato. Se i privilegi di accesso al file sono stati revocati, potresti essere reindirizzato a una versione aggiornata del file, se disponibile. Se non riesci ad aprire un file protetto tramite policy, contatta l’autore del file per ricevere assistenza.
+Se non disponi dell’autorizzazione per aprire il file, verrai avvisato che l’accesso è stato negato. Se i privilegi di accesso al file vengono revocati, è possibile che venga visualizzata una versione aggiornata del file, se disponibile. Se non riesci ad aprire un file protetto tramite policy, contatta l’autore del file per ricevere assistenza.
 
 Quando viene aperto un file protetto, il testo che segue il nome del file nella barra del titolo informa che il file è protetto tramite AEM Document Security.
 
@@ -407,13 +407,13 @@ Effettua le seguenti operazioni:
 
 ### Salvataggio dei documenti quando è abilitata l’applicazione automatica del criterio {#saving-documents-when-auto-apply-policy-is-enabled}
 
-Se l’amministratore ha abilitato la funzione di applicazione automatica del criterio, tutti i documenti creati o modificati verranno automaticamente protetti quando il documento viene salvato.
+Se l’amministratore ha abilitato la funzionalità di applicazione automatica della policy, tutti i documenti creati o modificati vengono automaticamente protetti al momento del salvataggio.
 
-Se la funzione di applicazione automatica della policy è abilitata, Document Security Extension for Microsoft® Office ti richiederà di accedere al server Document Security. Immetti il nome utente e la password in modo che il server possa eseguire l’autenticazione. Se avrai specificato le credenziali di accesso corrette, il documento verrà salvato e protetto.
+Se la policy applicata automaticamente è abilitata, Document Security Extension for Microsoft® Office richiede di accedere al server di Document Security. Immetti il nome utente e la password in modo che il server possa eseguire l’autenticazione. Se avrai specificato le credenziali di accesso corrette, il documento verrà salvato e protetto.
 
 >[!NOTE]
 >
->Se invece non riesci ad accedere a Document Security, è possibile che il documento non venga salvato. Questo dipende dal modo in cui l’amministratore ha configurato l’applicazione automatica della policy. Rivolgiti all’amministratore per sapere come vengono gestiti i documenti in questa situazione.
+>Se invece non riesci ad accedere a Document Security, è possibile che il documento non venga salvato. Questa situazione dipende dal modo in cui l’amministratore ha configurato la policy applicata automaticamente. Rivolgiti all’amministratore per sapere come vengono gestiti i documenti in questa situazione.
 
 ### Sincronizzazione per l’accesso offline {#synchronizing-for-offline-access}
 
