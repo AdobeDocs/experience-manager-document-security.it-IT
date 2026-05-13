@@ -1,14 +1,23 @@
 ---
-title: Utilizzo di AEM Document Security Extension for Microsoft® Office
+title: Utilizzo di AEM Document Security Extension for Microsoft&reg; Office
 description: È possibile controllare in che modo i destinatari utilizzano i file protetti da un criterio, indipendentemente dal numero di persone a cui sono stati distribuiti. Questo documento spiega come proteggere i file e come utilizzare i file protetti.
 uuid: db4abbc8-eb21-4f4a-9950-224ada95ce66
 content-type: reference
 topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
-source-git-commit: 7eb2b2e5ba296b87159978037ae50c702f7d0656
+TQID: https://experienceleague.adobe.com/cI8I72aByEI0tcij2o-QNkGjTxCztTa4uZFXsfwlMVc
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b2df949228acdc23ca7f2c55b72e62c1dba130b8
 workflow-type: tm+mt
-source-wordcount: '6139'
+source-wordcount: 6278
 ht-degree: 98%
 
 ---
@@ -260,7 +269,7 @@ Alcune delle impostazioni disponibili per la creazione di policy nelle pagine we
   </tr>
   <tr>
    <td><p>Validità autorizzazione</p></td>
-   <td><p>Supportata.</p></td>
+   <td><p>Supportato.</p></td>
   </tr>
  </tbody>
 </table>
@@ -457,11 +466,11 @@ Document Security Extension for Microsoft® Office supporta le seguenti funziona
   </tr>
   <tr>
    <td><p>Posizione verticale</p></td>
-   <td><p>Supportata</p></td>
+   <td><p>Supportato</p></td>
   </tr>
   <tr>
    <td><p>Posizione orizzontale</p></td>
-   <td><p>Supportata</p><p>In Excel 2010 e 2013 la disposizione orizzontale delle filigrane tramite l’utilizzo di punti non è supportata.</p></td>
+   <td><p>Funzione supportata</p><p>In Excel 2010 e 2013 la disposizione orizzontale delle filigrane tramite l’utilizzo di punti non è supportata.</p></td>
   </tr>
   <tr>
    <td><p>Scala</p></td>
@@ -473,7 +482,7 @@ Document Security Extension for Microsoft® Office supporta le seguenti funziona
   </tr>
   <tr>
    <td><p>Opacità</p></td>
-   <td><p>Supportato</p></td>
+   <td><p>Funzione supportata</p></td>
   </tr>
  </tbody>
 </table>
