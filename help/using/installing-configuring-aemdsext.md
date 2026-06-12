@@ -212,7 +212,7 @@ Prima di iniziare, preconfigura il file di installazione per puntare al server L
 <table>
  <tbody>
   <tr>
-   <td><p><strong>Nome della chiave</strong></p> </td>
+   <td><p><strong>Nome chiave</strong></p> </td>
    <td><p><strong>Descrizione</strong></p> </td>
    <td><p><strong>Valore </strong><strong></strong><strong>chiave predefinito</strong></p> </td>
   </tr>

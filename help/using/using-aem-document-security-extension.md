@@ -269,7 +269,7 @@ Alcune delle impostazioni disponibili per la creazione di policy nelle pagine we
   </tr>
   <tr>
    <td><p>Validità autorizzazione</p></td>
-   <td><p>Supportato.</p></td>
+   <td><p>Supportata.</p></td>
   </tr>
  </tbody>
 </table>
@@ -466,11 +466,11 @@ Document Security Extension for Microsoft® Office supporta le seguenti funziona
   </tr>
   <tr>
    <td><p>Posizione verticale</p></td>
-   <td><p>Supportato</p></td>
+   <td><p>Supportata</p></td>
   </tr>
   <tr>
    <td><p>Posizione orizzontale</p></td>
-   <td><p>Funzione supportata</p><p>In Excel 2010 e 2013 la disposizione orizzontale delle filigrane tramite l’utilizzo di punti non è supportata.</p></td>
+   <td><p>Supportata</p><p>In Excel 2010 e 2013 la disposizione orizzontale delle filigrane tramite l’utilizzo di punti non è supportata.</p></td>
   </tr>
   <tr>
    <td><p>Scala</p></td>
@@ -482,7 +482,7 @@ Document Security Extension for Microsoft® Office supporta le seguenti funziona
   </tr>
   <tr>
    <td><p>Opacità</p></td>
-   <td><p>Funzione supportata</p></td>
+   <td><p>Supportato</p></td>
   </tr>
  </tbody>
 </table>
