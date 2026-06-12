@@ -7,9 +7,14 @@ topic-tags: using
 discoiquuid: f4c2460c-174f-4e4d-b804-1eb051d2781e
 exl-id: 667a9718-b865-4911-96c2-7c08f75e0732
 TQID: https://experienceleague.adobe.com/cI8I72aByEI0tcij2o-QNkGjTxCztTa4uZFXsfwlMVc
-product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b2df949228acdc23ca7f2c55b72e62c1dba130b8
 workflow-type: tm+mt
 source-wordcount: 6278
@@ -427,7 +432,7 @@ Effettua le seguenti operazioni:
 
 * In Document Security Extension for Microsoft® Office 2010 e 2013, nella scheda **Document Security**, seleziona **Sincronizza offline**.
 
-  ***nota **: il pulsante di sincronizzazione offline è disponibile anche se l’utente non dispone dell’autorizzazione offline sul documento. Se selezioni il pulsante, tuttavia, non viene eseguita alcuna operazione.*
+  ***nota &#x200B;**: il pulsante di sincronizzazione offline è disponibile anche se l’utente non dispone dell’autorizzazione offline sul documento. Se selezioni il pulsante, tuttavia, non viene eseguita alcuna operazione.*
 
 ### Utilizzo delle filigrane dinamiche {#working-with-dynamic-watermarks}
 
@@ -587,7 +592,7 @@ Quando si apre un file protetto tramite policy in Word, le informazioni di recup
 
 **File > Flussi di lavoro** Non disponibile durante una sessione protetta.
 
-***Nota **: l’avvio di un flusso di lavoro in Word, Excel e PowerPoint 2010 è disponibile solo nelle versioni Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 e versioni autonome 2010.*
+***Nota &#x200B;**: l’avvio di un flusso di lavoro in Word, Excel e PowerPoint 2010 è disponibile solo nelle versioni Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 e versioni autonome 2010.*
 
 **Post di blog > Pubblica** Non disponibile durante una sessione protetta.
 
@@ -659,7 +664,7 @@ Le funzioni elencate di seguito risultano limitate nelle situazioni descritte:
 
 **File > Flussi di lavoro** Non disponibile durante una sessione protetta.
 
-***Nota **: l’avvio di un flusso di lavoro in Word, Excel e PowerPoint 2010 è disponibile solo nelle versioni Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 e versioni autonome 2010.*
+***Nota &#x200B;**: l’avvio di un flusso di lavoro in Word, Excel e PowerPoint 2010 è disponibile solo nelle versioni Office Professional Plus 2010, Office Enterprise 2010, Office Ultimate 2010 e versioni autonome 2010.*
 
 **File > Server > Menu Attività file server** Non disponibile durante una sessione protetta.
 
@@ -721,7 +726,7 @@ Le funzioni elencate di seguito risultano limitate nelle situazioni descritte:
 
 **Salva informazioni di salvataggio automatico** Non disponibile durante una sessione protetta.
 
-***Nota **: se si tenta di modificare una cella in un file protetto tramite policy senza autorizzazione, Excel avverte erroneamente di utilizzare il comando Rimuovi protezione foglio per rimuovere la protezione.*
+***Nota &#x200B;**: se si tenta di modificare una cella in un file protetto tramite policy senza autorizzazione, Excel avverte erroneamente di utilizzare il comando Rimuovi protezione foglio per rimuovere la protezione.*
 
 #### Limitazioni per PowerPoint 2010 e PowerPoint 2013 {#powerpoint-2010-and-powerpoint-2013-restrictions}
 
