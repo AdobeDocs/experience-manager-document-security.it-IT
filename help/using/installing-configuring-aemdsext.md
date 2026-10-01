@@ -9,19 +9,22 @@ exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 TQID: https://experienceleague.adobe.com/VeYp8E0Yyp4uOAx33B6YmQVUJfNFZOvIad97NopbKcM
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b2df949228acdc23ca7f2c55b72e62c1dba130b8
+    internal-label: Security
+source-git-commit: 97e24a5c1733b47777d7dcf165ceb3309bf41972
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: '2933'
 ht-degree: 94%
-
 ---
-
 # Installare e configurare AEM Document Security Extension for Microsoft Office{#installing-and-configuring-aem-document-security-extension-for-microsoft-office}
 
 Questo documento illustra come installare e configurare Adobe Experience Manager Document Security Extension for Microsoft Office.
@@ -209,44 +212,44 @@ Prima di iniziare, preconfigura il file di installazione per puntare al server L
 
 1. Modifica i seguenti valori del Nome chiave in base all’installazione aziendale di Rights Management o Document Security.
 
-<table>
- <tbody>
-  <tr>
-   <td><p><strong>Nome chiave</strong></p> </td>
-   <td><p><strong>Descrizione</strong></p> </td>
-   <td><p><strong>Valore </strong><strong></strong><strong>chiave predefinito</strong></p> </td>
-  </tr>
-  <tr>
-   <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
-   <td><p>Abilita o disabilita la funzione di applicazione automatica della policy.</p> <p><code>1</code>: Abilita</p> <p>0: Disattiva</p> </td>
-   <td><p>0</p> </td>
-  </tr>
-  <tr>
-   <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
-   <td><p>La policy è GUID da utilizzare per il salvataggio di nuovi documenti. Questo valore si applica alla funzione di applicazione automatica della policy.</p> </td>
-   <td><p>ID policy esadecimale come risulta visibile sul server RM</p> </td>
-  </tr>
-  <tr>
-   <td><p><code>AUTO_APPLY_POLICY_SERVER_U RL</code></p> </td>
-   <td><p>URL del server.</p> </td>
-   <td><p>default.corp.com</p> </td>
-  </tr>
-  <tr>
-   <td><p><code>AUTO_APPLY_POLICY_SERVER_P ORT_NO</code></p> </td>
-   <td><p>Numero della porta del server.</p> </td>
-   <td><p>1234</p> </td>
-  </tr>
-  <tr>
-   <td><p><code>AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</code></p> </td>
-   <td><p>Determina se è possibile creare documenti senza la protezione di Document Security nel caso in cui il client non sia in grado di contattare il server per proteggere il documento al primo salvataggio.</p> <p>1: Consenti salvataggi non protetti </p> <p>0: Impedisci la creazione di nuovi documenti quando il client non è in grado di contattare il server per salvare il documento.</p> </td>
-   <td><p>0</p> </td>
-  </tr>
- </tbody>
-</table>
+   <table>
+   <tbody>
+   <tr>
+      <td><p><strong>Nome chiave</strong></p> </td>
+      <td><p><strong>Descrizione</strong></p> </td>
+      <td><p><strong>Valore </strong><strong></strong><strong>chiave predefinito</strong></p> </td>
+   </tr>
+   <tr>
+      <td><p><code>AUTO_APPLY_POLICY_IS_AUTO_ APPLY</code></p> </td>
+      <td><p>Abilita o disabilita la funzione di applicazione automatica della policy.</p> <p><code>1</code>: Abilita</p> <p>0: Disattiva</p> </td>
+      <td><p>0</p> </td>
+   </tr>
+   <tr>
+      <td><p><code>AUTO_APPLY_POLICY_POLICY_I D</code></p> </td>
+      <td><p>La policy è GUID da utilizzare per il salvataggio di nuovi documenti. Questo valore si applica alla funzione di applicazione automatica della policy.</p> </td>
+      <td><p>ID policy esadecimale come risulta visibile sul server RM</p> </td>
+   </tr>
+   <tr>
+      <td><p><code>AUTO_APPLY_POLICY_SERVER_U RL</code></p> </td>
+      <td><p>URL del server.</p> </td>
+      <td><p>default.corp.com</p> </td>
+   </tr>
+   <tr>
+      <td><p><code>AUTO_APPLY_POLICY_SERVER_P ORT_NO</code></p> </td>
+      <td><p>Numero della porta del server.</p> </td>
+      <td><p>1234</p> </td>
+   </tr>
+   <tr>
+      <td><p><code>AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE</code></p> </td>
+      <td><p>Determina se è possibile creare documenti senza la protezione di Document Security nel caso in cui il client non sia in grado di contattare il server per proteggere il documento al primo salvataggio.</p> <p>1: Consenti salvataggi non protetti </p> <p>0: Impedisci la creazione di nuovi documenti quando il client non è in grado di contattare il server per salvare il documento.</p> </td>
+      <td><p>0</p> </td>
+   </tr>
+   </tbody>
+   </table>
 
->[!NOTE]
->
->L’opzione `AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` è utile quando si desidera ricordare di proteggere tutti i documenti senza obbligare a farlo. È utile anche quando si è certi che gli utenti hanno l’esigenza di creare nuovi documenti mentre sono disconnessi dalla rete e non si vuole impedire loro di creare e salvare i documenti.
+   >[!NOTE]
+   >
+   >L’opzione `AUTO_APPLY_POLICY_ALLOW_UN PROTECTED_SAVE` è utile quando si desidera ricordare di proteggere tutti i documenti senza obbligare a farlo. È utile anche quando si è certi che gli utenti hanno l’esigenza di creare nuovi documenti mentre sono disconnessi dalla rete e non si vuole impedire loro di creare e salvare i documenti.
 
 1. Salva il file modificato nella stessa directory contenente il file MSI originale.
 
@@ -300,11 +303,11 @@ Per informazioni sulla configurazione del criterio applicato automaticamente, ve
 
 * Esegui il backup del file CommonResources.dll Il percorso predefinito è:
 
-   * **(per Office a 32 bit su computer a 32 bit)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+  * **(per Office a 32 bit su computer a 32 bit)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
-   * **(per Office a 32 bit su computer a 64 bit)** C:\Program Files (x86)\Adobe\Adobe Experience Manager Forms\Document Security Extension
+  * **(per Office a 32 bit su computer a 64 bit)** C:\Program Files (x86)\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
-   * **(per Office a 64 bit su computer a 64 bit)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
+  * **(per Office a 64 bit su computer a 64 bit)** C:\Program Files\Adobe\Adobe Experience Manager Forms\Document Security Extension
 
 * Verifica che sia installato Microsoft Visual Studio 2008 o versione successiva. È possibile utilizzare anche un’altra utility per modificare i file DLL.
 * Estrai l’archivio templates.zip, contenente i modelli .xlsx, .docx e .pptx per la pagina di copertina. Utilizza solo i modelli forniti per i tipi di file .xlsx, .docx e .pptx. Per gli altri tipi di file, invece, puoi utilizzare anche altri modelli, contenenti istruzioni e messaggi personalizzati. Puoi trovare l’archivio template.zip in:
@@ -431,7 +434,7 @@ Per creare un pacchetto del file `CommonResources.dll` personalizzato con il pro
 1. **(Solo per il file di installazione di AEM Document Security Extension for Microsoft Office con estensione .exe)** Sostituisci la seguente riga di codice:
 
    `msiexec /i YOUR_FOLDER_NAME\MSI_NAME.msi`
-con
+   con
 
    `START /w YOUR_FOLDER_NAME\APPLICATION_NAME.exe`
 
